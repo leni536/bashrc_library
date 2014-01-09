@@ -36,6 +36,9 @@
 #       source ~/.bash_git_ps1.sh
 #-----------------------------------------------------------------------------------------------
 
+# header guard
+[ -n "$_PS1_H" ] && return || readonly _PS1_H=1
+
 # colors
 case "$TERM" in
     xterm*|rxvt*|screen*)

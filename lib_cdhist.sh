@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# header quard
+[ -n "$_CDHIST_H" ] && return || readonly _CDHIST_H=1
+
 source "$BASHSOURCEDIR/lib_stack.sh"
 
 cd^()
