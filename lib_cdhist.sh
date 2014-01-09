@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# header quard
+# header guard
 [ -n "$_CDHIST_H" ] && return || readonly _CDHIST_H=1
 
 source "$BASHSOURCEDIR/lib_stack.sh"
